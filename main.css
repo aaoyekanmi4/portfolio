@@ -1,0 +1,30 @@
+* {
+    box-sizing:border-box;
+    text-align:center;
+}
+.nav{
+
+    background-color: white;
+    color: black;
+}
+.name-title {
+    width: 100%;
+    background-color: #1d1515;
+    color: white;
+    height:20%;
+}
+.bio {
+    text-align: center;
+    width:100%;
+    background-color: rgb(209, 167, 209);
+    color:white;
+    height:200px;
+}
+.projects {
+    text-align: center;
+    width: 100%;
+    background-color:green;
+    color:white;
+    height:500px;
+
+}
