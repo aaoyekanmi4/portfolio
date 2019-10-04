@@ -2,29 +2,63 @@
     box-sizing:border-box;
     text-align:center;
 }
+html {
+    background-color: #0b1e46;
+}
 .nav{
-
-    background-color: white;
+    
+    background-color: rgb(22, 71, 145);
     color: black;
+    height:20px;
 }
 .name-title {
     width: 100%;
-    background-color: #1d1515;
     color: white;
     height:20%;
 }
 .bio {
     text-align: center;
     width:100%;
-    background-color: rgb(209, 167, 209);
+    background-color: rgb(51, 28, 114);
     color:white;
     height:200px;
 }
-.projects {
+h2 {
+    color: white;
+}
+.projects-container {
+    
     text-align: center;
     width: 100%;
-    background-color:green;
+    background-color:rgb(41, 112, 41);
     color:white;
-    height:500px;
+}
 
+
+a {
+    text-decoration: none;
+    color: skyblue;
+}
+ul {
+    list-style-type:none;
+}
+@media(min-width: 500px){
+    .title-photo{
+        display:none;
+    }
+    .bio {
+        clear:right;
+        width:50%;
+        margin: 0 auto;
+    }
+    .projects-container {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    }
+    .name-title {
+        text-align:left;
+    }
+    
+    
 }
