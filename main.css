@@ -73,6 +73,9 @@ ul {
     justify-content:space-around;
     flex-wrap: wrap;
     }
-   
- 
+    .name-title {
+        text-align:left;
+    }
+    
+    
 }
