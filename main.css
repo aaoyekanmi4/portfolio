@@ -1,26 +1,83 @@
 * {
     box-sizing:border-box;
-    text-align:center;
+  
 }
-html {
-    background-color: #0b1e46;
+html,body {
+    background-color: #1a3e59;
+    height:100%;
 }
-.nav{
+nav{
     
-    background-color: rgb(22, 71, 145);
-    color: black;
-    height:20px;
+    background-color: #3b6c90;
+    color: white;
+    height:50px;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+
 }
+li {
+    margin:0;
+    padding:0;
+    display:inline-block;
+}
+span {
+    color: #36aaff;
+}
+button{
+    border:1px solid  white;
+    width:150px;
+    background:transparent;
+    padding:10px;
+    color:  white;
+    font-size: 22px;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color: skyblue;
+    color: #0c2333;
+    border:1px solid #0c2333;
+}
+h1 {
+    font-size:45px;
+    font-weight:normal;
+    width:580px;
+}
+.name-holder {
+    border: .5px solid white;
+    padding:40px;
+    margin: 0 auto;
+    width:580px;
+    margin-top:10%;
+
+}
+
+.button-holder{
+    width:580px;
+    margin: 0 auto;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+
 .name-title {
     width: 100%;
     color: white;
     height:20%;
+    height:100%;
+    text-align: left;
+    font-family: 'Lora', serif;
 }
 .bio {
     text-align: center;
-    width:100%;
-    background-color: rgb(51, 28, 114);
+    width:fit-content;
+    
+     
     color:white;
+    font-family: 'Work Sans', sans-serif;
+    
     height:200px;
 }
 h2 {
@@ -30,7 +87,7 @@ h2 {
     
     text-align: center;
     width: 100%;
-    background-color:rgb(41, 112, 41);
+    background-color:#3c9d9b;
     color:white;
 }
 
