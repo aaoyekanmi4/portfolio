@@ -4,28 +4,45 @@
 }
 html,body {
     background-color: #1a3e59;
-    height:100%;
+    font-family:'Lora', sans-serif;
+    padding:0px;
+    margin:0px;
 }
 nav{
     
-    background-color: #3b6c90;
+    background-color:rgb(54, 21, 30);
     color: white;
     height:50px;
     width:100%;
-    position:fixed;
+    position:relative;
     left:0;
     top:0;
+   
 
 }
+
+.technologies-container {
+    margin-top: 10%;
+    font-size: 45px;
+    width: 75%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    padding: 0px;
+}
 li {
-    margin:0;
-    padding:0;
+    padding:10px;
+    
     display:inline-block;
 }
-span {
+span.name, span.title {
     color: #36aaff;
 }
-button{
+.about{
+   color: #29d8d4;
+}
+a {
     border:1px solid  white;
     width:150px;
     background:transparent;
@@ -35,7 +52,12 @@ button{
     cursor:pointer;
 
 }
-button:hover{
+.nav-list-item{
+    border:none;
+    font-size:28px;
+    color:white;
+}
+a:hover{
     background-color: skyblue;
     color: #0c2333;
     border:1px solid #0c2333;
@@ -50,7 +72,9 @@ h1 {
     padding:40px;
     margin: 0 auto;
     width:580px;
-    margin-top:10%;
+    margin-top:0;
+    position:relative;
+    top: 10%;
 
 }
 
@@ -60,26 +84,42 @@ h1 {
     margin-top:20px;
     display:flex;
     justify-content: space-between;
+    text-align:center;
+    font-family:'Arial';
+    position: relative;
+    top: 10%;
 }
 
 .name-title {
     width: 100%;
     color: white;
-    height:20%;
-    height:100%;
+
+   
+    height:100vh;
+    position:relative;
     text-align: left;
     font-family: 'Lora', serif;
 }
+article {
+font-size: 25px;
+width: 75%;
+margin: 0 auto;
+position: relative;
+top: 12%;
+line-height: 1.6;
+}
 .bio {
-    text-align: center;
-    width:fit-content;
+    text-align: left;
+    width: 100%;
+    background-color:rgb(54, 21, 30);
     
-     
+   
     color:white;
     font-family: 'Work Sans', sans-serif;
-    
-    height:200px;
+    position:relative;
+    height:100vh;
 }
+
 h2 {
     color: white;
 }
@@ -87,7 +127,9 @@ h2 {
     
     text-align: center;
     width: 100%;
-    background-color:#3c9d9b;
+    height:100vh;
+    position:relative;
+   
     color:white;
 }
 
@@ -99,15 +141,15 @@ a {
 ul {
     list-style-type:none;
 }
+
+.nav-list{
+    margin-left:60%;
+}
 @media(min-width: 500px){
     .title-photo{
         display:none;
     }
-    .bio {
-        clear:right;
-        width:50%;
-        margin: 0 auto;
-    }
+
     .projects-container {
     display:flex;
     justify-content:space-between;
