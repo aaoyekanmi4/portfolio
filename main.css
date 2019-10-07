@@ -186,7 +186,7 @@ ul {
       
     }
     .project-title {
-        color:  #0c2333; 
+        color: white;
     }
  
     .project-row {
@@ -198,15 +198,20 @@ ul {
         position:relative;
         padding: 35px;
         top:100px;
-        background-color: skyblue;
+      color:white;
+      border: 1px solid white;
         
         
     
         
       
     }
+    .project-links{
+        border:none;
+        color:rgb(123, 218, 255)
+    }
     .project-image{
-        border:1px solid black;
+        border:1px solid skyblue;
         flex-shrink:2;
     }
    
@@ -219,7 +224,7 @@ ul {
     .project {
         width:400px;
        
-        background-color: skyblue;
+       
     }
     .name-title {
         text-align:left;
