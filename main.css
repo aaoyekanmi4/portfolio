@@ -4,7 +4,7 @@
 }
 html,body {
     background-color: #1a3e59;
-    font-family:'Lora', sans-serif;
+    font-family:'Work Sans', sans-serif;
     padding:0px;
     margin:0px;
 }
@@ -148,7 +148,7 @@ figure {
 .projects-title {
     text-align:center;
     width:100%;
-    font-family:'Lora';
+    font-family:'Work Sans';
     color: white;
     margin-bottom:0px;
    
@@ -238,6 +238,7 @@ ul {
     .contact-link {
         display:block;
         width:320px;
+        color:white;
     }
     .contact-title {
         position:relative;
