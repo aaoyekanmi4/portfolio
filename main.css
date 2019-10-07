@@ -122,6 +122,9 @@ nav {
 .about {
     color: #29d8d4;
  }
+ .about-title {
+     display:none;
+ }
 
 article {
     font-size: 25px;

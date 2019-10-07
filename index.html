@@ -7,12 +7,13 @@
 <title>Arit Oyekan</title>
 <link rel="stylesheet" href="main.css">
 <script src="https://kit.fontawesome.com/98f0f92e21.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Lora|Work+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<main>
-<section class="name-title">
+<main role="main">
+<section class="name-title" id="landing">
 <div class="name-holder">
 <h1>My name is <span class="name">Arit Oyekan</span></h1>
 <h1>I am a <span class="title">web developer. </span></h1>
@@ -25,9 +26,11 @@
 
 
 </section>
-<section class="bio" id="about">
 
-<nav class="navigation">
+<section class="bio" id="about">
+   <h2 class="about-title">About</h2>     
+
+<nav class="navigation" role="navigation">
 <ul class="nav-list">
 <li class="nav-list-item"><a href="#contact" class="nav-list-item">Contact</a></li>
 <li class="nav-list-item"><a href="#projects" class="nav-list-item">Projects</a></li>
@@ -38,8 +41,8 @@
 </nav>
 
 <article class="bio-text">
+                <h2 class="about">Hi there.</h2>
 
-<h2 class="about">Hi there.</h2>
 
 <p>I'm a recent graduate of Thinkful's Web Developent Bootcamp. I love solving problems, learning from others, and 
 challenging myself to grow as a person.  In my spare time, I enjoy tackling logic puzzles, 
@@ -49,7 +52,7 @@ taking calculated risks, and playing action-adventure games. Feel free to contac
 
 <ul class="technologies-container">
 <li class="technology"><figure><i class="fab fa-react"></i><figcaption>React</figcaption></figure></li> 
-<li class="technology"><figure><i class="fab fa-js"></i><figcaption>JavaScript</figcaption></figcaption></figure></li> 
+<li class="technology"><figure><i class="fab fa-js"></i><figcaption>JavaScript</figcaption></figure></li> 
 <li class="technology"><figure><i class="fab fa-html5"></i><figcaption>HTML5</figcaption></figure></li> 
 <li class="technology"><figure><i class="fab fa-node"></i><figcaption>Node</figcaption></figure></li> 
 <li class="technology"><figure><i class="fab fa-python"></i><figcaption>Python</figcaption></figure></li>
@@ -74,9 +77,7 @@ taking calculated risks, and playing action-adventure games. Feel free to contac
 changing the DOM dynamically while emphasizing responsiveness and accessibility.  
 A single-page app about JavaScript array methods. 
 The app provides the users with links to documentation
-about questions they missed. 
-
-</p>
+about questions they missed. </p>
 <p class="project-links"><a class="project-links" target="_blank" href="https://github.com/aaoyekanmi4/quiz-app">Github </a>|
 <a  class="project-links" target="_blank" href="https://aaoyekanmi4.github.io/quiz-app/"> Live site</a></p>
 
@@ -84,7 +85,7 @@ about questions they missed.
 
 
 <div class="project project-image">
-<img src ="images/quiz1.png">
+<img alt="screenshot of quiz project" src ="images/quiz1.png">
 </div>
 
 </div>
@@ -93,11 +94,14 @@ about questions they missed.
 </section>
 
 <section class="contact" id="contact">
+    
 <h1 class="contact-title">Contact</h1>
+
 <div class="contact-methods">
 <a class="contact-link"  target="_blank" href="mailto:aaoyekanmi4@gmail.com">Send an Email </a>  
 <a class="contact-link" target="_blank"  href="https://www.linkedin.com/in/arit-oyekan-3687b0194/">LinkedIn</a>
 <a  class="contact-link" target="_blank"  href ="https://github.com/aaoyekanmi4">Github</a>
+<a  class="contact-link" href="#landing">Back to Top</a>   
 </div>
 </section>
 
