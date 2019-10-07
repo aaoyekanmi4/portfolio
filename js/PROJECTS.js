@@ -7,7 +7,7 @@ const PROJECTS = [{
                 The app provides the users with links to documentation
                 about questions they missed.`,
     imageSrc:"images/quiz1.png",
-    imageAlt:"screenshot of quiz app end screen",
+    imageAlt:"quiz-app screenshot",
     repo:"https://github.com/aaoyekanmi4/quiz-app",
     liveSite:"https://aaoyekanmi4.github.io/quiz-app/"
 }];

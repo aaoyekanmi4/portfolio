@@ -12,7 +12,7 @@ function showProject (PROJECTS){
          <a class="project-links" target="_blank" id ="live" href=${project.livesite}> Live site</a></p>
          </div>
          <div class="project project-image">
-         <img alt=${project.imageAlt} src =${project.imageSrc}>
+         <img alt="${project.imageAlt}" src =${project.imageSrc}>
          </div>
          </div>`);
     const projectHTML = htmlArray.join('');
