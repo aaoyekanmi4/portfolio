@@ -65,7 +65,7 @@ a:hover{
 h1 {
     font-size:45px;
     font-weight:normal;
-    width:580px;
+
 }
 .name-holder {
     border: .5px solid white;
@@ -123,17 +123,36 @@ line-height: 1.6;
 h2 {
     color: white;
 }
-.projects-container {
-    
-    text-align: center;
-    width: 100%;
-    height:100vh;
-    position:relative;
-   
-    color:white;
+.project-title {
+ height:fit-content;
+ width:100%;
+ text-align:center;
+ 
 }
+figcaption {
+    font-family: "Work Sans", sans-serif;
+    font-size:16px;
 
+   text-align: center;
 
+}
+figure {
+    text-align:center;
+}
+.projects-title {
+    text-align:center;
+    width:100%;
+    font-family:'Lora';
+    color: white;
+    margin-bottom:0px;
+    
+    margin-bottom:0px;
+    
+}
+img {
+    width:428px;
+    height:300px;
+}
 a {
     text-decoration: none;
     color: skyblue;
@@ -145,15 +164,44 @@ ul {
 .nav-list{
     margin-left:60%;
 }
-@media(min-width: 500px){
-    .title-photo{
-        display:none;
-    }
+
 
     .projects-container {
-    display:flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
+       
+        font-family:'Work Sans', sans-serif;
+        color:  #0c2333;
+        padding:35px;
+        text-align: center;
+        width: 100%;
+        height:100vh;
+        position:relative;
+      
+    }
+    .project-title {
+        color:  #0c2333; 
+    }
+    .project-image{
+        padding-top:15px;
+    }
+    .project-row {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width:80%;
+        margin: 0 auto;
+        top:100px;
+        position:relative;
+        padding: 35px;
+        top:100px;
+        background-color: skyblue;
+        /*border: 1px solid #0c2333*/;
+        
+      
+    }
+    .project {
+        width: 45%;
+        height:300px;
+        background-color: skyblue;
     }
     .name-title {
         text-align:left;
