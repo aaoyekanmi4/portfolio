@@ -6,8 +6,8 @@ const PROJECTS = [{
                 responsiveness and accessibility.  
                 The app provides the users with links to documentation
                 about questions they missed.`,
-    imageSrc:"images/quiz1.png",
+    imageSrc:"images/quiz2.png",
     imageAlt:"quiz-app screenshot",
     repo:"https://github.com/aaoyekanmi4/quiz-app",
-    liveSite:"https://aaoyekanmi4.github.io/quiz-app/"
+    liveSite:"https://aaoyekanmi4.github.io/quiz-app"
 }];
