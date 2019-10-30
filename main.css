@@ -175,8 +175,8 @@ figure {
 }
 
 img {
-    width:100%;   
-    height:100%;
+    width:400px;   
+    height:300px;
 }
 
 
@@ -214,7 +214,8 @@ img {
 }
 .project-image{
     border:1px solid skyblue;
-    flex-shrink:2;
+    width:400px;
+    height:300px;
 }
 
 

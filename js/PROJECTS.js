@@ -19,7 +19,7 @@ const PROJECTS = [{
     targeted. This project was co-created with Rena Lorkis, a fellow Thinkful student.`,
     imageSrc:"images/exercise-finder.png",
     imageAlt:"exercise-finder screenshot",
-    repo:"https://github.com/aaoyekanmi4/Exercise-Finder",
-    liveSite:"https://aaoyekanmi4.github.io/Exercise-Finder"
+    repo:"https://github.com/aaoyekanmi4/ExerciseFinder",
+    liveSite:"https://aaoyekanmi4.github.io/ExerciseFinder"
     }
 ];
