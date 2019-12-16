@@ -205,15 +205,25 @@ img {
     padding: 35px;
     top:100px;
     color:white;
-    border: 1px solid white;
+   
 
+}
+.image-link {
+    border:none;
+    background:transparent;
+    cursor:pointer;
+}
+.image-link:hover {
+    background:transparent;
+    color:#1a3e59;
+    border:none;
 }
 .project-links{
     border:none;
     color:rgb(123, 218, 255)
 }
 .project-image{
-    border:1px solid skyblue;
+  
     width:400px;
     height:300px;
 }
