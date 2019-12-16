@@ -218,9 +218,15 @@ img {
     color:#1a3e59;
     border:none;
 }
+
 .project-links{
     border:none;
     color:rgb(123, 218, 255)
+}
+.project-links:hover {
+   color: rgb(57, 255, 84);
+   border:none;
+   background:transparent;
 }
 .project-image{
   
