@@ -14,7 +14,7 @@ html,body {
 }
 #background-img {
 
-    background: url('/images/mountain.jpg') no-repeat;
+    background: url('images/mountain.jpg') no-repeat;
     background-size:cover;
     background-position:left;
     position:relative;
@@ -202,7 +202,7 @@ figure {
 /* Projects */
 
 #project-page {
-    background: url('/images/without_mountain.png') no-repeat;
+    background: url('images/without_mountain.png') no-repeat;
     background-size:cover;
     background-position:left;
     position:relative;
