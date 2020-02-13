@@ -2,32 +2,32 @@ const PROJECTS = [
 
     {
         title:"JavaScript Arrays Quiz",
-        description:`Single page application which tests users knowledge and provides feedback`,
+        description:`Single page application which tests users knowledge of array methods and provides feedback`,
         imageSrc:"images/quiz.png",
         imageAlt:"quiz app screenshot",
         tech:['jQuery', 'HTML', 'CSS'],
-        repo:"https://github.com/aaoyekanmi4/item-catalog",
-        live:"http://ec2-18-220-22-123.us-east-2.compute.amazonaws.com"
+        repo:"https://github.com/aaoyekanmi4/quiz-app",
+        live:"https://aaoyekanmi4.github.io/quiz-app/"
     
         },
         {
-            title:"Read and Share",
-            description:`Full-stack application that helps users keep track of books to read and share reviews.`,
-            imageSrc:"images/itemcatalog1-800.png",
+            title:"Hint",
+            description:`A 2-player clue like game that you can play against a friend. Playable on large screen devices, mobile version in progress.`,
+            imageSrc:"images/hint.png",
             imageAlt:"item catalog screenshot",
-            tech:['MongoDB', 'React', 'Node'],
-            repo:"https://github.com/aaoyekanmi4/item-catalog",
-            live:"http://ec2-18-220-22-123.us-east-2.compute.amazonaws.com"
+            tech:['Node', 'Sockets.io', 'jQuery'],
+            repo:"https://github.com/aaoyekanmi4/hint-2player",
+            live:"http://hint-2player.herokuapp.com/"
         
             },
             {
-                title:"Read and Share",
-                description:`Full-stack application that helps users keep track of books to read and share reviews.`,
+                title:"Music Catalog",
+                description:`A web application built using Python and Flask which allows users to perform CRUD operations on a catalog of musical instruments.`,
                 imageSrc:"images/itemcatalog1-800.png",
-                imageAlt:"item catalog screenshot",
-                tech:['MongoDB', 'React', 'Node'],
+                imageAlt:"music-catalog screenshot",
+                tech:['Python', 'Flask', 'PostgresSQL'],
                 repo:"https://github.com/aaoyekanmi4/item-catalog",
-                live:"http://ec2-18-220-22-123.us-east-2.compute.amazonaws.com"
+                live:"https://item-catalog-udacity.herokuapp.com/"
             
                 }
 

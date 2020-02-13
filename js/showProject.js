@@ -14,7 +14,7 @@ function showProjects (PROJECTS){
                       <div class="stack">
                         <span id="tech">Tech: </span>${project.tech.join(', ')}
                       </div>
-                      <a class="github" href="${project.repo}">
+                      <a target="_blank" class="github" href="${project.repo}">
                         <i class="fab fa-github"></i>
                         Github
                       </a>
