@@ -27,7 +27,7 @@ const PROJECTS = [
                 imageAlt:"music-catalog screenshot",
                 tech:['Python', 'Flask', 'PostgresSQL'],
                 repo:"https://github.com/aaoyekanmi4/item-catalog",
-                live:"https://item-catalog-udacity.herokuapp.com/"
+                live:"https://music-store-catalog.herokuapp.com/"
             
                 }
 
