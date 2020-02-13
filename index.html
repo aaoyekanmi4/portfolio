@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Arit Oyekan</title>
-<link rel="stylesheet" href="main.css">
-<script src="https://kit.fontawesome.com/98f0f92e21.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Arit Oyekan</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://kit.fontawesome.com/98f0f92e21.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+  </head>
 
-<body>
-<main>
-<section class="name-title" id="landing">
-<div class="name-holder">
-<h1>My name is <span class="name">Arit Oyekan</span></h1>
-<h1>I am a <span class="title">web developer. </span></h1>
-</div>
-<div class="button-holder">
-<a href="#about">About</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</div>
-
-
-</section>
-
-<section class="bio" id="about">
-   <h2 class="about-title">About</h2>     
-
-<nav class="navigation">
-<ul class="nav-list">
-<li class="nav-list-item"><a href="#contact" class="nav-list-item">Contact</a></li>
-<li class="nav-list-item"><a href="#projects" class="nav-list-item">Projects</a></li>
-<li class="nav-list-item"><a target="_blank"  href="https://www.linkedin.com/in/arit-oyekan-3687b0194/" class="nav-list-item"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a  target="_blank"  href="https://github.com/aaoyekanmi4" class="nav-list-item"><i class="fab fa-github"></i></a></li>
-
-</ul>
-</nav>
-
-<article class="bio-text">
-                <h2 class="about">Hi there.</h2>
-
-
-<p>I'm a recent graduate of Thinkful's Web Development Bootcamp. I love solving problems, learning from others, and 
-challenging myself to grow as a person.  In my spare time, I enjoy tackling logic puzzles, 
-taking calculated risks, and playing action-adventure games. Feel free to contact me.</p>
-</article>
-
-
-<ul class="technologies-container">
-<li class="technology"><figure><i class="fab fa-react"></i><figcaption>React</figcaption></figure></li> 
-<li class="technology"><figure><i class="fab fa-js"></i><figcaption>JavaScript</figcaption></figure></li> 
-<li class="technology"><figure><i class="fab fa-html5"></i><figcaption>HTML5</figcaption></figure></li> 
-<li class="technology"><figure><i class="fab fa-node"></i><figcaption>Node</figcaption></figure></li> 
-<li class="technology"><figure><i class="fab fa-python"></i><figcaption>Python</figcaption></figure></li>
-</ul>
-
-</section>
-
-<section class="projects-container" id="projects">
-<ul class="nav-list">
-<li class="nav-list-item"><a href="#contact" class="nav-list-item">Contact</a></li>
-<li class="nav-list-item"><a href="#about" class="nav-list-item">About</a></li>
-<li class="nav-list-item"><a target="_blank" href="https://www.linkedin.com/in/arit-oyekan-3687b0194/" class="nav-list-item"><i class="fab fa-linkedin-in"></i></a></li>
-<li><a href="https://github.com/aaoyekanmi4" target="_blank"  class="nav-list-item"><i class="fab fa-github"></i></a></li>
-
-</ul>
-<h1 class="projects-title">Projects</h1>
-<div class="loadProjects"></div>
-
-
-</section>
-
-<section class="contact" id="contact">
-    
-<h1 class="contact-title">Contact</h1>
-
-<div class="contact-methods">
-<a class="contact-link"  target="_blank" href="mailto:aaoyekanmi4@gmail.com">Send an Email </a>  
-<a class="contact-link" target="_blank"  href="https://www.linkedin.com/in/arit-oyekan-3687b0194/">LinkedIn</a>
-<a  class="contact-link" target="_blank"  href ="https://github.com/aaoyekanmi4">Github</a>
-<a  class="contact-link" href="#landing">Back to Top</a>   
-</div>
-</section>
-
-
+  <body>
+    <main>
+      <section class="name-title" id="landing">
+        <div id="background-img"></div>
+        <nav>
+          <a href="#project-page" class="nav-link project-page-link">Projects</a>
+          <a href="#contact" class="nav-link contact-page-link">Contact</a>
+          <a href="#about" class="nav-link about-page-link">About</a>
+          
+        </nav>
+        <div id="name-holder">
+          <h1 id="my-name">
+            <span class="name-intro">My name is</span>
+            <span class="name">Arit Oyekan.</span>
+          </h1>
+          <h1>
+            <span class="name-intro">I am a</span>
+            <span class="title">web developer. </span>
+          </h1>
+        </div>
+      </section>
+      <section class="bio" id="about">
+        
+     
+     <article class="bio-text">
+                    
+      <h2 class="about">Hi there.</h2>
+     
+     <p>          I am a full-stack web developer. I translate designs into
+      accessible user interfaces on the front-end, create databases and apis on the back-end, and connect the two in a variety of programming languages.
+      It's important to me to build projects that exceed expectations and I take pride and care in what I do. 
+       I love being a developer because I enjoy solving
+      problems, learning new things, and challenging myself to grow.  Feel free to contact me and we can build something together.
+    </p>
+     </article>
+     
+     
+     <ul class="technologies-container">
+     <li class="technology"><figure><i class="fab fa-react"></i><figcaption>React</figcaption></figure></li> 
+     <li class="technology"><figure><i class="fab fa-js"></i><figcaption>JavaScript</figcaption></figure></li> 
+     <li class="technology"><figure><i class="fab fa-html5"></i><figcaption>HTML5</figcaption></figure></li> 
+     <li class="technology"><figure><i class="fab fa-node"></i><figcaption>Node</figcaption></figure></li> 
+     <li class="technology"><figure><i class="fab fa-python"></i><figcaption>Python</figcaption></figure></li>
+     </ul>
+     
+     </section>
+      <section id="project-page">
+      
+        <h1 id="projects-title">Projects</h1>
+        <div id="projects">
+      
+         
+        
+        </div>
+      </section>
+      <section id="contact">
+        <h1 id="contact-title">Contact</h1>
+        <form action="mailto:aritoyekan@gmail.com" method="post" enctype="text/plain">
+         <div class="input-block">
+        <label for="name"> Name:   </label>
+          <input id="name" name="name" type="text">
+        </div>
+        <div class="input-block">
+        <label for="email"> Email:   </label>
+          <input id="email" name="email" type="email">
+      </div>
+      <div class="input-block">
+        <label for="body"> Body:   </label>
+          <textarea id="body" name="body"></textarea>
+      </div>
+      <button id="send" type="submit">Send</button>
+        </form>
+        <ul id="contact-links">
+          <li><a  target="_blank"  href="https://github.com/aaoyekanmi4" class="nav-list-item"><i class="fab fa-github"></i></a></li>
+          <li class="nav-list-item"><a target="_blank"  href="https://www.linkedin.com/in/arit-oyekan-3687b0194/" class="nav-list-item"><i class="fab fa-linkedin-in"></i></a></li>
+     
+        </ul>
+      </section>
+     
 </main>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
 <script src="js/PROJECTS.js"></script>
 <script src="js/showProject.js"></script>
 </body>
 </html>
+    

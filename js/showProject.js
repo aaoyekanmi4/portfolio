@@ -1,44 +1,28 @@
-
 //Generate HTML from PROJECTS.js 
-function showProject (PROJECTS){
-   
-    const htmlArray = PROJECTS.map(project =>{
-        if (PROJECTS.indexOf(project) % 2 === 0){
-            return `<div class="project-row">
-            <div class="project description">
-            <h2 class="project-title">${project.title}</h2>
-            <h3>Languages/Frameworks: </h3><h3 class="languages">${project.languages}</h3>
-            <p class="description-text">${project.description} </p>
-            <p class="project-links"><a class="project-links" id="repo" target="_blank" href=${project.repo}>Github </a>|
-            <a class="project-links" target="_blank" id ="live" href=${project.liveSite}>Live site</a></p>
-            </div>
-            <div class="project project-image">
-            <a href=${project.liveSite} target="_blank" class="image-link"><img alt="${project.imageAlt}" src =${project.imageSrc}></a>
-            </div>
-            </div>`
-        }
-        else {
-           return `<div class="project-row">
-            <div class="project project-image">
-            <a href=${project.liveSite} target="_blank" class="image-link"><img alt="${project.imageAlt}" src =${project.imageSrc}></a>
-            </div>
-            <div class="project description">
-            <h2 class="project-title">${project.title}</h2>
-            <h3>Languages/Frameworks: </h3><h3 class="languages">${project.languages}</h3>
-            <p class="description-text">${project.description} </p>
-            <p class="project-links"><a class="project-links" id="repo" target="_blank" href=${project.repo}>Github </a>|
-            <a class="project-links" target="_blank" id ="live" href=${project.liveSite}>Live site</a></p>
-            </div>
-           
-            </div>`
-
-        }
-    });
-    const projectHTML = htmlArray.join('');
-
-$('.loadProjects').append(projectHTML)
+function showProjects (PROJECTS){
+    const projectsHTML = PROJECTS.map(project =>{
+        return `<div class="project">
+                  <div class="pic-text">
+                    <div class="pic">
+                      <img src="${project.imageSrc}" alt="${project.imageAlt}"/>
+                    </div>
+                    <div class="project-text">
+                    <h3 class="project-title">
+                        <a class="project-title" target="_blank" href=${project.live}>${project.title}</a>
+                    </h3>
+                      <p class="description">${project.description}</p>
+                      <div class="stack">
+                        <span id="tech">Tech: </span>${project.tech.join(', ')}
+                      </div>
+                      <a class="github" href="${project.repo}">
+                        <i class="fab fa-github"></i>
+                        Github
+                      </a>
+                    </div>
+                  </div>
+                </div>`
+    }).join('');
+projects.innerHTML =projectsHTML;
 }
+showProjects(PROJECTS);
 
-$(showProject(PROJECTS));
-
-console.log(PROJECTS);
