@@ -378,7 +378,7 @@ img {
         #name-holder {
             width:80%;
             text-align:left;
-            top:20%;
+            top:10%;
             left:20%;
             line-height:2;
             
@@ -403,6 +403,10 @@ img {
             width:100%;
             margin:10px 0;
         }
+        #my-name {
+            margin:0px;
+        }
+   
        
     }
 
