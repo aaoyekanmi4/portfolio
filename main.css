@@ -265,6 +265,10 @@ img {
     padding-left:0px;
 
 }
+.pic {
+    border-bottom:1px solid black;
+    height:301px;
+}
 .pic-text{
     width: fit-content;
     border: 1px solid black;

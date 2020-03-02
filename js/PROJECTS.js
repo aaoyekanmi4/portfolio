@@ -9,13 +9,13 @@ const PROJECTS = [
     live: " https://react-quiz-app-1g4mvr480.now.sh/"
   },
   {
-    title: "Hint",
-    description: `A 2-player clue like game that you can play against a friend. Playable on large screen devices, mobile version in progress.`,
-    imageSrc: "images/hint.png",
-    imageAlt: "item catalog screenshot",
-    tech: ["Node", "Sockets.io", "jQuery"],
-    repo: "https://github.com/aaoyekanmi4/hint-2player",
-    live: "http://hint-2player.herokuapp.com/"
+    title: "Job Tracker",
+    description: `A full-stack application which helps users keep track of their job search with details on dates and contacts for each job.`,
+    imageSrc: "images/job_tracker.png",
+    imageAlt: "Job tracker screen shot",
+    tech: ["Node", "React", "PostgresQL","Express"],
+    repo: "https://github.com/aaoyekanmi4/JobTrackerClient",
+    live: "https://job-tracker-client.now.sh/"
   },
   {
     title: "Music Catalog",
