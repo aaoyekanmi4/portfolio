@@ -1,106 +1,86 @@
 /*General Styles  Photo by Casey Horner on Unsplash*/
 * {
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-html,body {
-    
-    font-family:'Poppins', sans-serif;
-    padding:0px;
-    margin:0px;
-  
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 #background-img {
-
-    background: url('images/mountain.jpg') no-repeat;
-    background-size:cover;
-    background-position:left;
-    position:relative;
-    height:100vh;
-    width:100%;
-
-
-    
-  
-    
+  background: url("images/mountain.jpg") no-repeat;
+  background-size: cover;
+  background-position: left;
+  position: relative;
+  height: 100vh;
+  width: 100%;
 }
 
 section {
-    height:100vh;
-    position:relative;
-    left:0;
-    top:0;
+  height: 100vh;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 nav {
-    width:450px;
-    display:flex;
-    justify-content:space-evenly;
-    position:absolute;
-    align-items:center;
-    right:0;
-    top:0;
-    height:50px;
-    margin:2rem 2rem;
-    
-
-
-
+  width: 450px;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  align-items: center;
+  right: 0;
+  top: 0;
+  height: 50px;
+  margin: 2rem 2rem;
 }
 .nav-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 4px;
-    background: orange;
-    transition: width .5s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: orange;
+  transition: width 0.5s;
 }
 
 .nav-link:hover::after {
-    width: 100%;
-    
+  width: 100%;
 }
 
 .nav-link {
-    text-decoration:none;
-    color: rgb(246, 255, 192);
-    font-family:'Arial', sans-serif;
-    font-weight:600;
-    letter-spacing:1px;
-    font-size:20px;
-    text-transform:uppercase;
-    position:relative;
-    
-  
-    
+  text-decoration: none;
+  color: rgb(246, 255, 192);
+  font-family: "Arial", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-transform: uppercase;
+  position: relative;
 }
-
-
-
 
 h1 {
-    font-size:45px;
-    font-weight:normal;
-    display:inline-block;
-    font-weight:600;
+  font-size: 45px;
+  font-weight: normal;
+  display: inline-block;
+  font-weight: 600;
 }
 
-
 ul {
-    list-style-type:none;
+  list-style-type: none;
 }
 
 h2 {
-    color: white;
+  color: white;
 }
 
 li {
-    padding:10px;
-    display:inline-block;
+  padding: 10px;
+  display: inline-block;
 }
 
-@keyframes slideIn {
+/* @keyframes slideIn {
     from {
       transform: translateY(70%);
       opacity:0;
@@ -110,310 +90,282 @@ li {
       transform: translateY(0%);
       opacity:1;
     }
-  }
+  } */
 
 /*Landing Page*/
 .name-title {
-    width: 100%;
-    color: rgb(246, 255, 192);   
-    height:100vh;
-    position:relative;
-    text-align: left;
+  width: 100%;
+  color: rgb(246, 255, 192);
+  height: 100vh;
+  position: relative;
+  text-align: left;
 
-    font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 #my-name {
-    margin:30px 0px;
+  margin: 30px 0px;
 }
 
 #name-holder {
-
+  /* animation-delay:2s, 0s;
+    
     animation-duration:2s;
-    animation-name:slideIn;
-    left:8%;
-    width:600px;
-    top:20%;
-    position:absolute;
-    
-    margin-right:0px;
-    
+    animation-name:slideIn; */
+  left: 8%;
+  width: 600px;
+  top: 20%;
+  position: absolute;
 
+  margin-right: 0px;
 }
-span.name, span.title {
-    color:  #eeca26;
+span.name,
+span.title {
+  color: #eeca26;
 }
-
-
 
 /*About*/
 
 .bio {
-    text-align: left;
+  text-align: left;
 
-    background-color:rgb(54, 21, 30);
-  
-    color:white;
-    font-family: 'Work Sans', sans-serif;
-   
+  background-color: rgb(54, 21, 30);
+
+  color: white;
+  font-family: "Work Sans", sans-serif;
 }
 
-
-
-
 .about {
-    color: #29d8d4;
- }
+  color: #29d8d4;
+}
 
 article {
-    font-size: 25px;
-    width: 75%;
-    margin: 0 auto;
-    position: relative;
-    top: 12%;
-    line-height: 1.6;
-    font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  top: 12%;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
 }
 
 .technologies-container {
-    margin-top: 10%;
-    font-size: 45px;
-    width: 75%;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    display:flex;
-    padding: 0px;
-    flex-wrap:wrap;
-
+  margin-top: 10%;
+  font-size: 45px;
+  width: 75%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding: 0px;
+  flex-wrap: wrap;
 }
 figcaption {
-    font-family: "Poppins", sans-serif;
-    font-size:16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
 
-   text-align: center;
-
+  text-align: center;
 }
 figure {
-    text-align:center;
-    margin:20px;
+  text-align: center;
+  margin: 20px;
 }
 
 /* Projects */
 
 #project-page {
-    background: url('images/without_mountain.png') no-repeat;
-    background-size:cover;
-    background-position:left;
-    position:relative;
-    height:100vh;
-    width:100%;
-    text-align: center;
-    
-    bottom: 20px;
-    width: 100%;
+  background: url("images/without_mountain.png") no-repeat;
+  background-size: cover;
+  background-position: left;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+
+  bottom: 20px;
+  width: 100%;
 }
 #projects-title {
-    margin-top:30px;
-    margin-bottom:100px;
-    font-family: 'Lora', serif;
-    color:white;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  font-family: "Lora", serif;
+  color: white;
 }
 #description {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 #projects {
- 
-    display: flex;
-    flex-wrap:wrap;    
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 .stack {
-    padding-bottom:10px;
+  padding-bottom: 10px;
 }
 #tech {
-    font-weight:700;
+  font-weight: 700;
 }
 .github {
-    color:gray;
-    text-decoration: none;
-    font-weight:600;
- 
+  color: gray;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-
 .project {
-    left:50%;
-    width:400px;
-    margin:0 auto;
+  left: 50%;
+  width: 400px;
+  margin: 0 auto;
 }
 
 img {
-    width:400px;   
-    height:300px;
+  width: 400px;
+  height: 300px;
 }
 
 .project-title {
-    color:black;
-    text-decoration:none;
+  color: black;
+  text-decoration: none;
 }
 .tools {
-    display:flex;
-    text-decoration: underline;
-    justify-content:space-between;
-    width:400px;
-    padding-left:0px;
-
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-between;
+  width: 400px;
+  padding-left: 0px;
 }
 .pic {
-    border-bottom:1px solid black;
-    height:301px;
+  border-bottom: 1px solid black;
+  height: 301px;
 }
-.pic-text{
-    width: fit-content;
-    border: 1px solid black;
-    text-align: center;
-    color:black;
-    font-family:'Poppins', sans-serif;
-    background: white;
-    padding-bottom:10px;
-    border:2px solid black;
-    
+.pic-text {
+  width: fit-content;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  background: white;
+  padding-bottom: 10px;
+  border: 2px solid black;
 }
 
+/* Contact*/
 
-
-  /* Contact*/
-
-    #contact{
-        position:relative;
-        background-color:rgb(54, 21, 30);
-        text-align:center;
-        color:white;
-    }
-   
-    #contact-title {
-        font-family: 'Lora', serif;
-        margin-bottom:50px;
-        
-    }
-  
-    
-   form {
-       width:40%;
-       margin:25px auto;
-
-
-   }
-   
-   input[type="text"], input[type="email"], textarea{
-       width:100%;
-       height:35px;
-       border-radius:2px;
-
-   }
-   .input-block{ 
-       margin:20px 0;
-   }
-
-   label {
-       float:left;
-   }
-   textarea {
-       height:175px;
-      
-   }
-   #send {
-       background:white;
-       color:black;
-       width:125px;
-       border-radius:10px;
-       border:2px solid black;
-       padding:2px;
-       font-family:'Poppins';
-       font-size:16px;
-       cursor:pointer;
-       font-weight:600;
-
-   }
-   .nav-list-item {
-    border:none;
-    font-size:28px;
-    color:white;
+#contact {
+  position: relative;
+  background-color: rgb(54, 21, 30);
+  text-align: center;
+  color: white;
 }
-   #contact-links {
-       width:fit-content;
-       margin: 0 auto;
-       padding:0;
-   }
-    
 
-    @media screen and (max-width: 1350px) {
-        #name-holder {
-        
-            left:3%;
-        }
-        #project-page, #about {
-            height:100%;
-        }
-        form {
-            width:60%;
-        }
-    }
-    @media screen and (max-width:800px) {
-       nav {
-           width:100%;
-           margin:0 auto;
-       }
-       .project {
-           margin:10px auto;
-       }
-    }
-    @media screen and (max-width:540px) {
-        nav {
-            flex-direction:column;
-            top:60%;
-            align-items:flex-start;
-            left:20%;
-            height:150px;
-            width:80%;
-        }
-     
-        #name-holder {
-            width:80%;
-            text-align:left;
-            top:10%;
-            left:20%;
-            line-height:2;
-            
-        }
-        .name-intro {
-            display:none;
-        }
-        h1 {
-            font-size:33px;
-            margin:0;
-            padding:0;
-        }
-        span {
-            padding-right:40px;
-        }
-        form {
-            width:80%;
-        }
-    }
-    @media screen and (max-width:400px) {
-        .project, img {
-            width:100%;
-            margin:10px 0;
-        }
-        #my-name {
-            margin:0px;
-        }
-   
-       
-    }
+#contact-title {
+  font-family: "Lora", serif;
+  margin-bottom: 50px;
+}
 
+form {
+  width: 40%;
+  margin: 25px auto;
+}
 
-    
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+}
+.input-block {
+  margin: 20px 0;
+}
 
+label {
+  float: left;
+}
+textarea {
+  height: 175px;
+}
+#send {
+  background: white;
+  color: black;
+  width: 125px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 2px;
+  font-family: "Poppins";
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.nav-list-item {
+  border: none;
+  font-size: 28px;
+  color: white;
+}
+#contact-links {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 1350px) {
+  #name-holder {
+    left: 3%;
+  }
+  #project-page,
+  #about {
+    height: 100%;
+  }
+  form {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 800px) {
+  nav {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .project {
+    margin: 10px auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  nav {
+    flex-direction: column;
+    top: 60%;
+    align-items: flex-start;
+    left: 20%;
+    height: 150px;
+    width: 80%;
+  }
+
+  #name-holder {
+    width: 80%;
+    text-align: left;
+    top: 10%;
+    left: 20%;
+    line-height: 2;
+  }
+  .name-intro {
+    display: none;
+  }
+  h1 {
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+  }
+  span {
+    padding-right: 40px;
+  }
+  form {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .project,
+  img {
+    width: 100%;
+    margin: 10px 0;
+  }
+  #my-name {
+    margin: 0px;
+  }
+}
