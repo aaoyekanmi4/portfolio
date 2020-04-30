@@ -23,7 +23,10 @@ function showProjects (PROJECTS){
                       <a target="_blank" class="github" href="${project.repo}">
                         <i class="fab fa-github"></i>
                         Github
-                      </a>
+                      </a> | 
+                      <a class="project-title" target="_blank" href=${
+                        project.live
+                      }>View Live</a> <i class="fas fa-external-link-alt"></i>
                     </div>
                   </div>
                 </div>`;

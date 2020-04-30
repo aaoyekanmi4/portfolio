@@ -1,7 +1,7 @@
 const PROJECTS = [
   {
     title: "JavaScript Arrays Quiz",
-    description: `Single page application which tests users knowledge of array methods and provides documentation for missed answers`,
+    description: `Single page quiz application which helps those learning JavaScript learn the array methods.Documentation for missed answers is provided to explain how the correct method is used.`,
     imageSrc: "images/quiz.png",
     imageAlt: "quiz app screenshot",
     tech: ["React", "CSS"],
@@ -10,7 +10,7 @@ const PROJECTS = [
   },
   {
     title: "Job Tracker",
-    description: `A full-stack application which helps users keep track of their job search with details on dates and contacts for each job.`,
+    description: `A full-stack application which helps job seekers keep track of their job search with details on dates and contacts for each job. Useful for knowing when to follow-up and who to contact.`,
     imageSrc: "images/job_tracker.png",
     imageAlt: "Job tracker screen shot",
     tech: ["Node", "React", "PostgresQL","Express"],
@@ -19,7 +19,7 @@ const PROJECTS = [
   },
   {
     title: "Music Catalog",
-    description: `A web application built using Python and Flask which allows users to perform CRUD operations on a catalog of musical instruments.`,
+    description: `A web application built using Python and Flask which store owners can use to perform CRUD operations on a catalog of items to sell.`,
     imageSrc: "images/itemcatalog1-800.png",
     imageAlt: "music-catalog screenshot",
     tech: ["Python", "Flask", "PostgresSQL"],
