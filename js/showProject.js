@@ -1,21 +1,22 @@
 //Generate HTML from PROJECTS.js 
 function showProjects (PROJECTS){
     const projectsHTML = PROJECTS.map(project =>{
-        return `<div class="project">
+      return `<div class="project">
+          <h3 class="project-title">
+                        <a class="project-title" target="_blank" href=${
+                          project.live
+                        }>${project.title}</a>
+                    </h3>
                   <div class="pic-text">
                     <div class="pic">
                        <a class="project-title" target="_blank" href=${
                          project.live
                        }><img src="${project.imageSrc}" alt="${
-          project.imageAlt
-        }"/></a>
+        project.imageAlt
+      }"/></a>
                     </div>
                     <div class="project-text">
-                    <h3 class="project-title">
-                        <a class="project-title" target="_blank" href=${
-                          project.live
-                        }>${project.title}</a>
-                    </h3>
+                  
                       <p class="description">${project.description}</p>
                       <div class="stack">
                         <span id="tech">Tech: </span>${project.tech.join(", ")}
@@ -24,7 +25,7 @@ function showProjects (PROJECTS){
                         <i class="fab fa-github"></i>
                         Github
                       </a> | 
-                      <a class="project-title" target="_blank" href=${
+                      <a target="_blank" href=${
                         project.live
                       }>View Live</a> <i class="fas fa-external-link-alt"></i>
                     </div>
