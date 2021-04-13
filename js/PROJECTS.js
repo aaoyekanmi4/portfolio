@@ -19,7 +19,7 @@ const PROJECTS = [
   },
   {
     title: "Music Catalog",
-    description: `A web application built using Python and Flask which store owners can use to perform CRUD operations on a catalog of items to sell. I built it mainly to demonstrate the ability to learn a new framework quickly. Further directions include connecting the app with an e-commerce platform such as Shopify.`,
+    description: `A web application built using Python and Flask which store owners can use to perform CRUD operations on a catalog of items to sell. I built it mainly to demonstrate the ability to learn a new framework quickly. Further directions include connecting the app with an e-commerce platform.`,
     imageSrc: "images/itemcatalog1-800.png",
     imageAlt: "music-catalog screenshot",
     tech: ["Python", "Flask", "PostgresSQL"],
