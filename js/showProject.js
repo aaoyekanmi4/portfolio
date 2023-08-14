@@ -16,22 +16,22 @@ function showProjects(PROJECTS) {
     }"/></a>
                     </div>
                     <div class="project-text">
-                  
+
                       <p class="description">${project.description}</p>
                       <div class="stack">
-                        <span id="tech">Tech: </span>${project.tech.join(', ')}
+                        <span id="tech">Tech: </span>${project.tech.join(", ")}
                       </div>
                       <a target="_blank" class="github" href="${project.repo}">
                         <i class="fab fa-github"></i>
                         Github
-                      </a> | 
+                      </a> |
                       <a target="_blank" href=${
                         project.live
                       }>View Live</a> <i class="fas fa-external-link-alt"></i>
                     </div>
                   </div>
                 </div>`;
-  }).join('');
+  }).join("");
   projects.innerHTML = projectsHTML;
 }
 showProjects(PROJECTS);

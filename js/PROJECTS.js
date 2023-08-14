@@ -1,7 +1,7 @@
 const PROJECTS = [
   {
     title: "JavaScript Arrays Quiz",
-    description: `Single-page application which helps teach JavaScript array methods to those learning JavaScript. Documentation for missed answers is provided. I noticed some new students of JavaScript struggle with how functions are passed to these methods. I wanted to show how they work in a fun way.`,
+    description: `Single-page application which helps with learning JavaScript array methods. Documentation for missed answers is provided to encourage users to learn more about concepts they may struggle with`,
     imageSrc: "images/quiz.png",
     imageAlt: "quiz app screenshot",
     tech: ["React", "CSS"],
@@ -10,19 +10,19 @@ const PROJECTS = [
   },
   {
     title: "Job Tracker",
-    description: `A full-stack application which helps job seekers keep track of their job search with details on dates and contacts for each job. Useful for knowing when to follow-up and who to contact. I built it because keeping up with job leads from different sources can be tough and I want to help myself and others stay organized.`,
+    description: `A full-stack application for job seekers to store information about their current job applications as well as info about offers and important dates. Users may also store contacts for each job in a central location`,
     imageSrc: "images/job_tracker.png",
-    imageAlt: "Job tracker screen shot",
+    imageAlt: "Job tracker screenshot",
     tech: ["Node", "React", "PostgresQL","Express"],
     repo: "https://github.com/aaoyekanmi4/JobTrackerClient",
     live: "https://job-tracker-client.now.sh/"
   },
   {
-    title: "Music Catalog",
-    description: `A web application built using Python and Flask which store owners can use to perform CRUD operations on a catalog of items to sell. I built it mainly to demonstrate the ability to learn a new framework quickly. Further directions include connecting the app with an e-commerce platform.`,
+    title: "Othello",
+    description: `A React application of the popular board game Othello. Fun stats such as average captures per move and longest capture are displayed after each game. The game board is responsive to screen size changes for ease of mobile devices.`,
     imageSrc: "images/itemcatalog1-800.png",
     imageAlt: "music-catalog screenshot",
-    tech: ["Python", "Flask", "PostgresSQL"],
+    tech: ["React", "JSX", "CSS"],
     repo: "https://github.com/aaoyekanmi4/item-catalog",
     live: "https://music-store-catalog.herokuapp.com/"
   }

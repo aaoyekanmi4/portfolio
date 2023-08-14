@@ -5,17 +5,20 @@
   margin: 0;
   padding: 0;
 }
+
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 0px;
   margin: 0px;
 }
+
 a {
   text-decoration: none;
 }
+
 #background-img {
-  background: url('images/mountain.jpg') no-repeat;
+  background: url("images/mountain.jpg") no-repeat;
   background-size: cover;
   background-position: left;
   position: relative;
@@ -29,6 +32,7 @@ section {
   left: 0;
   top: 0;
 }
+
 nav {
   width: 600px;
   display: flex;
@@ -40,8 +44,9 @@ nav {
   height: 50px;
   margin: 2rem 2rem;
 }
+
 .nav-link::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 4px;
@@ -56,7 +61,7 @@ nav {
 .nav-link {
   text-decoration: none;
   color: rgb(246, 255, 192);
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 20px;
@@ -67,7 +72,6 @@ nav {
 h1 {
   font-size: 45px;
   font-weight: normal;
-  display: inline-block;
   font-weight: 600;
 }
 
@@ -103,7 +107,7 @@ li {
   height: 100vh;
   position: relative;
   text-align: left;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 #my-name {
@@ -111,16 +115,18 @@ li {
 }
 
 #name-holder {
-  animation-delay: 2s, 0s;
+  animation-delay: 1s, 0s;
   animation-duration: 2s;
   animation-name: slideIn;
   left: 8%;
   width: 600px;
   top: 20%;
   position: absolute;
-
+  opacity: 0;
+  animation-fill-mode: forwards;
   margin-right: 0px;
 }
+
 span.name,
 span.title {
   color: #eeca26;
@@ -130,17 +136,15 @@ span.title {
 
 .bio {
   text-align: left;
-
   background: linear-gradient(336deg, rgb(42 72 83) 0%, rgba(1, 43, 59, 1) 79%);
-
   color: white;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .about {
   margin-bottom: 30px;
-  font-family: 'Lora', serif;
-  color: #f6ffc0;
+  font-family: "Lora", serif;
+  color: white;
 }
 
 article {
@@ -150,7 +154,7 @@ article {
   position: relative;
   top: 12%;
   line-height: 1.6;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .technologies-container {
@@ -164,12 +168,13 @@ article {
   padding: 0px;
   flex-wrap: wrap;
 }
-figcaption {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
 
+figcaption {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
   text-align: center;
 }
+
 figure {
   text-align: center;
   margin: 20px;
@@ -185,19 +190,21 @@ figure {
   height: fit-content;
   width: 100%;
   text-align: center;
-
   bottom: 20px;
   width: 100%;
 }
+
 #projects-title {
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 30px;
-  font-family: 'Lora', serif;
-  color: #f6ffc0;
+  font-family: "Lora", serif;
+  color: white;
 }
+
 #description {
   padding: 20px 10px;
 }
+
 #projects {
   display: flex;
   flex-wrap: wrap;
@@ -205,9 +212,11 @@ figure {
 .stack {
   padding-bottom: 10px;
 }
+
 #tech {
   font-weight: 700;
 }
+
 .github {
   color: gray;
   text-decoration: none;
@@ -231,6 +240,7 @@ img {
   text-decoration: none;
   padding-top: 10px;
 }
+
 .tools {
   display: flex;
   text-decoration: underline;
@@ -238,22 +248,24 @@ img {
   width: 400px;
   padding-left: 0px;
 }
+
 .pic {
   border-bottom: 1px solid black;
   height: 301px;
 }
+
 .pic-text {
   width: fit-content;
   border: 1px solid black;
   text-align: center;
   color: black;
-  height: 600px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background: white;
   padding-bottom: 10px;
   margin-bottom: 50px;
   border: 2px solid black;
 }
+
 .project-text {
   padding: 20px 0;
 }
@@ -261,6 +273,7 @@ img {
 /* Contact*/
 
 #contact {
+  height: fit-content;
   position: relative;
   background-color: rgb(54, 21, 30);
   text-align: center;
@@ -268,8 +281,9 @@ img {
 }
 
 #contact-title {
-  font-family: 'Lora', serif;
-  margin: 50px 0;
+  font-family: "Lora", serif;
+  margin-bottom: 50px;
+  padding-top: 30px;
 }
 
 form {
@@ -277,8 +291,8 @@ form {
   margin: 25px auto;
 }
 
-input[type='text'],
-input[type='email'],
+input[type="text"],
+input[type="email"],
 textarea {
   width: 100%;
   height: 35px;
@@ -291,9 +305,11 @@ textarea {
 label {
   float: left;
 }
+
 textarea {
   height: 175px;
 }
+
 #send {
   background: white;
   color: black;
@@ -301,16 +317,18 @@ textarea {
   border-radius: 10px;
   border: 2px solid black;
   padding: 2px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 16px;
   cursor: pointer;
   font-weight: 600;
 }
+
 .nav-list-item {
   border: none;
   font-size: 28px;
   color: white;
 }
+
 #contact-links {
   width: fit-content;
   margin: 0 auto;
@@ -329,6 +347,7 @@ textarea {
     width: 60%;
   }
 }
+
 @media screen and (max-width: 800px) {
   nav {
     width: 100%;
@@ -338,6 +357,7 @@ textarea {
     margin: 10px auto;
   }
 }
+
 @media screen and (max-width: 540px) {
   nav {
     flex-direction: column;
@@ -355,27 +375,34 @@ textarea {
     left: 20%;
     line-height: 2;
   }
+
   .name-intro {
     display: none;
   }
+
   h1 {
+    display: block;
     font-size: 33px;
     margin: 0;
     padding: 0;
   }
+
   span {
     padding-right: 40px;
   }
+
   form {
     width: 80%;
   }
 }
+
 @media screen and (max-width: 400px) {
   .project,
   img {
     width: 100%;
     margin: 10px 0;
   }
+  
   #my-name {
     margin: 0px;
   }
