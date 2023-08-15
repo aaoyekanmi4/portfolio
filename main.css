@@ -206,7 +206,7 @@ figure {
   margin-bottom: 30px;
   font-family: "Lora", serif;
   color: white;
-  border-bottom: 4px solid orange;
+  text-align: center;
 }
 
 #description {
@@ -233,19 +233,20 @@ figure {
 
 .project {
   left: 50%;
-  width: 400px;
+  width: 350px;
   margin: 0 auto;
 }
 
 img {
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
 }
 
 .project-title {
   color: white;
   font-size: 30px;
   text-decoration: none;
+  text-align:center;
   padding-top: 10px;
 }
 
@@ -253,29 +254,47 @@ img {
   display: flex;
   text-decoration: underline;
   justify-content: space-between;
-  width: 400px;
+  width: 350px;
   padding-left: 0px;
 }
 
-.pic {
-  border-bottom: 1px solid black;
-  height: 301px;
+.project-links {
+  text-align: center;
 }
 
 .pic-text {
   width: fit-content;
   border: 1px solid black;
-  text-align: center;
   color: black;
   font-family: "Poppins", sans-serif;
   background: white;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   margin-bottom: 50px;
   border: 2px solid black;
 }
 
-.project-text {
-  padding: 20px 0;
+.project-links {
+  padding: 5px 0;
+}
+
+.site-link {
+  color:black;
+}
+
+.flip-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-top:5px;
+  padding-right:2px;
+
+}
+
+.flip-btn {
+  background: transparent;
+  border:none;
+  font-size:16px;
+  color:darkblue;
+  cursor:pointer;
 }
 
 /* Contact*/
@@ -404,7 +423,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width:350px) {
   .project,
   img {
     width: 100%;
