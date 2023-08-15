@@ -115,7 +115,7 @@ li {
 }
 
 #name-holder {
-  animation-delay: 1s, 0s;
+  animation-delay: .5s, 0s;
   animation-duration: 2s;
   animation-name: slideIn;
   left: 8%;
@@ -194,7 +194,7 @@ figure {
   width: 100%;
 }
 
-.section-content{
+.section-content {
   width: 75%;
   margin: 0 auto;
   position: relative;
@@ -203,10 +203,20 @@ figure {
 
 #projects-title {
   padding-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   font-family: "Lora", serif;
   color: white;
   text-align: center;
+}
+
+.project {
+  cursor: pointer;
+  width: 350px;
+  height: 312.5px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
 }
 
 #description {
@@ -216,9 +226,13 @@ figure {
 #projects {
   display: flex;
   flex-wrap: wrap;
+  padding: 0px 100px;
 }
 .stack {
   padding-bottom: 10px;
+  text-align:center;
+  font-family:Arial;
+  font-weight:bold;
 }
 
 #tech {
@@ -231,22 +245,15 @@ figure {
   font-weight: 600;
 }
 
-.project {
-  left: 50%;
-  width: 350px;
-  margin: 0 auto;
-}
-
 img {
   width: 350px;
   height: 250px;
 }
 
 .project-title {
-  color: white;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
-  text-align:center;
+  text-align: center;
   padding-top: 10px;
 }
 
@@ -278,23 +285,68 @@ img {
 }
 
 .site-link {
-  color:black;
+  color: black;
 }
 
 .flip-btn-container {
   display: flex;
   justify-content: flex-end;
-  padding-top:5px;
-  padding-right:2px;
-
+  padding-top: 5px;
+  padding-right: 2px;
 }
 
 .flip-btn {
   background: transparent;
-  border:none;
-  font-size:16px;
-  color:darkblue;
-  cursor:pointer;
+  border: none;
+  font-size: 16px;
+  color: darkblue;
+  cursor: pointer;
+}
+
+.inner-card-front,
+.inner-card-back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.description {
+  text-align: center;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.inner-card-back{
+  height: 360px;
+  margin-top:-48px;
+  background: #fff;
+  transform: rotateY(180deg);
+}
+
+.inner-card-front {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.inner-card {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.4s ease;
+}
+
+.revealed .inner-card {
+  transform: rotateY(180deg);
 }
 
 /* Contact*/
@@ -423,7 +475,7 @@ textarea {
   }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width: 350px) {
   .project,
   img {
     width: 100%;

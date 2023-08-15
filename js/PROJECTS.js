@@ -1,7 +1,7 @@
 const PROJECTS = [
   {
     title: "Othello",
-    description: `A React application of the popular board game Othello. Fun stats such as average captures per move and longest capture are displayed after each game. The game board is responsive to screen size changes for ease of mobile devices.`,
+    description: `A React application of the board game Othello. Fun stats such as average captures per move and longest capture are displayed after each game. The game board is mobile responsive for ease of use with mobile devices.`,
     imageSrc: "images/othello.png",
     imageAlt: "othello game screenshot",
     tech: ["React", "JSX", "CSS"],
@@ -21,7 +21,7 @@ const PROJECTS = [
   {
     title: "Letter Match Game",
     description:
-      "A letter match game for kids to learn their letters. Games consist of 6 letter groupings with card flip animations and sounds for a fun way to learn letters and common words that start with them.",
+      "A matching game for kids to learn their letters. Games consist of 6 letter groupings with card-flip animations and pronunciations for a fun way to learn letters and their corresponding sounds.",
     imageSrc: "images/letter-match.png",
     imageAlt: "letter match game screenshot",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -30,7 +30,7 @@ const PROJECTS = [
   },
   {
     title: "JavaScript Arrays Quiz",
-    description: `Single-page application which helps with learning JavaScript array methods. Documentation for missed answers is provided to encourage users to learn more about concepts they may struggle with`,
+    description: `Single-page quiz app for learning javascript array methods. Documentation for missed answers is provided to encourage users to learn more about concepts they may struggle with.`,
     imageSrc: "images/quiz.png",
     imageAlt: "quiz app screenshot",
     tech: ["React", "CSS"],
@@ -39,7 +39,7 @@ const PROJECTS = [
   },
   {
     title: "Job Tracker",
-    description: `A full-stack application for job seekers to store information about their current job applications as well as info about offers and important dates. Users may also store contacts for each job in a central location`,
+    description: `A full-stack application for job seekers to store information about their current job applications as well as info about offers and upcoming interviews. Users may also save contacts associated with each job for easy reference.`,
     imageSrc: "images/job_tracker.png",
     imageAlt: "Job tracker screenshot",
     tech: ["Node", "React", "PostgresQL", "Express"],
