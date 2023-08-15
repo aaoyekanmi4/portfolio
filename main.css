@@ -357,7 +357,7 @@ img {
 #contact {
   height: fit-content;
   position: relative;
-  background-color: rgb(54, 21, 30);
+  background: linear-gradient(336deg, rgb(42 72 83) 0%, rgba(1, 43, 59, 1) 79%);
   text-align: center;
   color: white;
 }
