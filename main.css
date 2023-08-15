@@ -203,6 +203,9 @@ figure {
 
 #projects-title {
   padding-top: 30px;
+  margin: 0 auto;
+  width: fit-content;
+  border-bottom: 4px solid orange;
   margin-bottom: 70px;
   font-family: "Lora", serif;
   color: white;
