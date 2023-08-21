@@ -21,9 +21,12 @@ function showProjects(PROJECTS) {
                         <i class="fab fa-github"></i>
                         Github
                       </a> |
-                      <a target="_blank" class="site-link" href=${
-                        project.live
-                      }>View Site</a> <i class="fas fa-external-link-alt"></i>
+                      <a target= "_blank"
+                      class="site-link"
+                      href = ${project.live}>
+                      View Site
+                      </a>
+                      <i class="fas fa-external-link-alt"></i>
                     </div>
                     <div class="flip-btn-container">
                     <button type="button" class="flip-btn" onclick="flipCard(${i})">
