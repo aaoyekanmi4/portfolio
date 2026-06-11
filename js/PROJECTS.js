@@ -11,12 +11,12 @@ const PROJECTS = [
   {
     title: "Hint",
     description:
-      "A 2 player variation on the popular boardgame clue. Players can travel to rooms on the board, make suggestions to each other using sockets.io, and solve the mystery by figuring out who dunnit, where, and with what!",
+      "A 2-player variation on the popular boardgame Clue. Players can travel to rooms on the board, make suggestions to each other using sockets.io, and solve the mystery by figuring out who dunnit, where, and with what!",
     imageSrc: "images/hint.png",
     imageAlt: "screenshot of game called 'hint'",
     tech: ["NodeJS", "HTML canvas", "sockets.io", "Bootstrap"],
     repo: "https://github.com/aaoyekanmi4/hint-2player",
-    live: "https://hint-2player-ec4b589b9107.herokuapp.com/",
+    live: "https://hint-2playr-e2bb698e9f4f.herokuapp.com",
   },
   {
     title: "Letter Match Game",
@@ -38,12 +38,12 @@ const PROJECTS = [
     live: "https://react-quiz-app-1g4mvr480.now.sh/",
   },
   {
-    title: "Job Tracker",
-    description: `A full-stack application for job seekers to store information about their current job applications as well as info about offers and upcoming interviews. Users may also save contacts associated with each job for easy reference.`,
-    imageSrc: "images/job_tracker.png",
-    imageAlt: "Job tracker screenshot",
-    tech: ["Node", "React", "PostgresQL", "Express"],
-    repo: "https://github.com/aaoyekanmi4/JobTrackerClient",
-    live: "https://job-tracker-client.now.sh/",
+    title: "Bible Reading List",
+    description: `An app to help Bible readers progress through Professor Grant Horner's reading plan. Audio is provided by audiobible.com for each chapter, and the readings come from the API Bible.`,
+    imageSrc: "images/bible_app.png",
+    imageAlt: "Bible App screenshot",
+    tech: ["CSS", "Vanilla JavaScript", "HTML"],
+    repo: "https://github.com/aaoyekanmi4/BibleReadingList",
+    live: "https://bible-reading-list.vercel.app/",
   },
 ];
